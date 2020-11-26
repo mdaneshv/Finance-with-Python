@@ -7,15 +7,14 @@ Created on Wed Oct 17 14:03:13 2018
 
 import random
 
-def rollDice():
-    roll = random.randint(1,100)
-    return roll
+def roll_dice():
+    return random.randint(1,100)
 
-# Now, just to test our dice, let's roll the dice 100 times. 
+#  Now roll the dice 1000 times. 
 
 x = 0
-while x < 100:
-    result = rollDice()
+while x < 1000:
+    result = roll_dice()
     print(result)
     x+=1
 	
