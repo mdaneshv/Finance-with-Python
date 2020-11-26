@@ -19,7 +19,7 @@ with open("s.txt","r") as csvfile:
     plots = csv.reader(csvfile, delimiter=',')
     print(plots)
     for row in plots:
-        x=np.linspace(0,11,11)
+        x = np.linspace(0,11,11)
         y.append(float(row[0]))
     #print(y)   #y.append((row[1]))
 plt.plot(x,y, label='Data')
@@ -69,8 +69,4 @@ for t in range(len(test)):
 plt.plot(predictions, color='red')
 plt.title(' Next 20 predictions')
 plt.show()
-
-
-
-
 
