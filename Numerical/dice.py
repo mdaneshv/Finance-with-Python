@@ -8,10 +8,9 @@ Created on Wed Oct 17 14:03:13 2018
 import random
 
 def roll_dice():
-    return random.randint(1,100)
+    return random.randint(1,6)
 
-#  Now roll the dice 1000 times. 
-
+""" Now roll the dice 1000 times"""
 x = 0
 while x < 1000:
     result = roll_dice()
