@@ -1,4 +1,4 @@
-# Python-for-Finance by Mohammad Daneshvar
+# Finance with Python by Mohammad Daneshvar
 
 Python codes for optimization, linear algebra, finance and data analysis and data cleaning using pandas.
 
